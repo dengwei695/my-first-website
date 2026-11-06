@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的网页</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1e90ff;
+            text-align: center;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            text-indent: 2em;
+        }
+        .box {
+            border: 2px solid #1e90ff;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>我的第一个网页</h1>
+
+        <p>这是我在 GitHub 上创建的第一个网页。通过这次实验，我学会了如何创建仓库、上传文件、开启网页服务，并访问自己的网页。</p>
+
+        <div class="box">
+            <h3>实验内容</h3>
+            <ul>
+                <li>创建 GitHub 账号</li>
+                <li>创建一个新的仓库</li>
+                <li>上传网页文件</li>
+                <li>开启 GitHub Pages 服务</li>
+                <li>访问发布后的网页</li>
+            </ul>
+        </div>
+
+        <p style="text-align:center; margin-top:30px;">
+            我的网页已经成功发布！
+        </p>
+    </div>
+
+</body>
+</html>
